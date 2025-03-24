@@ -14,6 +14,17 @@ Modular Design: Clean and modular code structure for easy modifications and enha
 # Tech Stack
 Language: C++
 
+# Project Structure
+main.cpp: The entry point of the game which initializes the menu and starts the game loop.
+
+game.h: Contains the game logic and manages game objects and background.
+
+menu.h: Handles the display and interaction with the game menu.
+
+player.h: Defines the player class, including movement and sprite management.
+
+Source.cpp: A sample SFML window demonstrating basic rendering.
+
 # Graphics & Windowing: SFML (Simple and Fast Multimedia Library)
 
 # Build Tools: Standard C++ build tools (e.g., g++, Visual Studio, or similar)
